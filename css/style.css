@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@500;600;700&family=Roboto:wght@700&display=swap");
+
+/* Usability Start*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --ff-primary: "Poppins", sans-serif;
+  --ff-product-1: "Inter", sans-serif;
+  --ff-product-2: "Roboto", sans-serif;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #e02c6d;
+  padding: 10px 24px;
+  font-family: var(--ff-primary);
+  font-weight: 700;
+  border: none;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+/* Usability End*/
+
+/* header styling start */
+.header {
+  height: 100vh;
+  padding: 30px 120px 10px;
+}
+/* navbar styling start  */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-text {
+  color: #3a3a3a;
+  font-family: var(--ff-primary);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.navbar .nav-items {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+}
+.nav-items li a {
+  color: #3a3a3a;
+  font-family: var(--ff-primary);
+  font-weight: 600;
+}
+/* banner styling start  */
+.banner {
+  display: flex;
+  align-items: center;
+}
+.banner-title {
+  color: #3a3a3a;
+  font-family: var(--ff-primary);
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 70px;
+}
+.banner-description {
+  width: 70%;
+  color: #3a3a3a;
+  font-family: var(--ff-primary);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 16px 0;
+}
+.banner-img {
+  position: relative;
+}
+.banner-img .main-camera-img {
+  position: absolute;
+  width: 96%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -43%);
+}
+.banner-img .main-camera-bg {
+  padding-top: 70px;
+}
